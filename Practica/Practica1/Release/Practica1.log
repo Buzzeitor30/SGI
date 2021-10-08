@@ -1,9 +1,0 @@
-﻿  Practica1.cpp
-D:\SGI\Practica\Practica1\Practica1.cpp(5,26): warning C4305: 'argumento': truncamiento de 'double' a 'GLclampf'
-D:\SGI\Practica\Practica1\Practica1.cpp(13,1): warning C4326: el tipo de valor devuelto de 'main' debe ser 'int' en lugar de 'void'
-  Generando código
-  4 of 15 functions (26.7%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
-  Generación de código finalizada
-  Practica1.vcxproj -> D:\SGI\Practica\Practica1\Practica1.exe
