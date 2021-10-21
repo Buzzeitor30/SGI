@@ -16,7 +16,7 @@ void main(int argc, char** argv)
 	glutInitWindowSize(500, 400);
 	glutInitWindowPosition(50, 600);
 	glutCreateWindow("Primer programa en OpenGL");
-	std::cout << "OpenGL running " << std::endl;
+	std::cout << "OpenGL runnings " << std::endl;
 	glutDisplayFunc(display);
 	glutReshapeFunc(reshape);
 	glutMainLoop();
