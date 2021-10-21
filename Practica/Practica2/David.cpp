@@ -20,11 +20,7 @@ void dibujarPentagono() {
 	pentagono = glGenLists(1); //id lista
 	//Variable para los ángulos
 	double angle;
-	glMatrixMode(GL_MODELVIEW); //Seleccionamos la matriz modelview
-	glLoadIdentity(); //Cargamos la matriz identidad, MV = I
-	
-	glPushMatrix(); //Apilamos la matriz modelview actual
-	glRotatef(15, 0, 0, 0);
+
 	glNewList(pentagono, GL_COMPILE); // abrir lista
 		float pi = 3.14159; //Constante PI para los cálculos
 		//Primera lista, dibuja el triangulo de arriba
@@ -52,7 +48,6 @@ void dibujarPentagono() {
 			glVertex3f(0.7 * cos(angle), 0.7 * sin(angle), 0);
 		glEnd();
 	glEndList();
-	glPopMatrix();
 
 }
 

@@ -14,7 +14,38 @@ void display()
 	glColor3f(0, 0, .3);
 	glMatrixMode(GL_MODELVIEW); //Seleccionamos la matriz modelview
 	glLoadIdentity();
+	
+
+	//Estrella superior izq.
+	glPushMatrix();
+	glTranslatef(-0.5, 0.5, 0);
+	glScalef(0.5, 0.5, 0.5);
 	glCallList(estrella_mega);
+	glPopMatrix();
+
+	//Estrella superior derecha
+	glPushMatrix();
+	glTranslatef(0.5, 0.5, 0);
+	glScalef(0.5, 0.5, 0.5);
+	glRotatef(90, 0, 0, 1);
+	glCallList(estrella_mega);
+	glPopMatrix();
+	
+	//Estrella inferior izq.
+	glPushMatrix();
+	glTranslatef(-0.5, -0.5, 0);
+	glScalef(0.5, 0.5, 0.5);
+	glRotatef(90, 0, 0, 1);
+	glCallList(estrella_mega);
+	glPopMatrix();
+
+	//Estrella inferior der.
+	glPushMatrix();
+	glTranslatef(0.5, -0.5, 0);
+	glScalef(0.5, 0.5, 0.5);
+	glCallList(estrella_mega);
+	glPopMatrix();
+
 	glFlush(); // Cierra lista
 }
 void reshape(GLint w, GLint h)
