@@ -16,10 +16,15 @@ void reshape(GLint w, GLint h)
 {
 }
 
-void init() {
+void dibujarPentagono() {
 	pentagono = glGenLists(1); //id lista
 	//Variable para los ángulos
 	double angle;
+	glMatrixMode(GL_MODELVIEW); //Seleccionamos la matriz modelview
+	glLoadIdentity(); //Cargamos la matriz identidad, MV = I
+	
+	glPushMatrix(); //Apilamos la matriz modelview actual
+	glRotatef(15, 0, 0, 0);
 	glNewList(pentagono, GL_COMPILE); // abrir lista
 		float pi = 3.14159; //Constante PI para los cálculos
 		//Primera lista, dibuja el triangulo de arriba
@@ -47,6 +52,7 @@ void init() {
 			glVertex3f(0.7 * cos(angle), 0.7 * sin(angle), 0);
 		glEnd();
 	glEndList();
+	glPopMatrix();
 
 }
 
@@ -56,8 +62,8 @@ void main(int argc, char** argv)
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
 	glutInitWindowSize(400, 400);
 	glutInitWindowPosition(50, 600);
-	glutCreateWindow("Estrella de David");
-	init();
+	glutCreateWindow("Mosaico");
+	dibujarPentagono();
 	glutDisplayFunc(display);
 	glutReshapeFunc(reshape);
 	glutMainLoop();
