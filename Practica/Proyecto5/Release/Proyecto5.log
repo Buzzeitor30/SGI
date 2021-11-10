@@ -1,0 +1,21 @@
+﻿  reloj.cpp
+D:\SGI\Practica\Proyecto5\reloj.cpp(20,20): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+D:\SGI\Practica\Proyecto5\reloj.cpp(78,32): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\SGI\Practica\Proyecto5\reloj.cpp(78,16): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\SGI\Practica\Proyecto5\reloj.cpp(79,36): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\SGI\Practica\Proyecto5\reloj.cpp(79,18): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\SGI\Practica\Proyecto5\reloj.cpp(103,32): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\SGI\Practica\Proyecto5\reloj.cpp(103,16): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\SGI\Practica\Proyecto5\reloj.cpp(104,36): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\SGI\Practica\Proyecto5\reloj.cpp(104,18): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\SGI\Practica\Proyecto5\reloj.cpp(114,32): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\SGI\Practica\Proyecto5\reloj.cpp(114,16): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\SGI\Practica\Proyecto5\reloj.cpp(115,36): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\SGI\Practica\Proyecto5\reloj.cpp(115,18): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\SGI\Practica\Proyecto5\reloj.cpp(124,1): warning C4326: el tipo de valor devuelto de 'main' debe ser 'int' en lugar de 'void'
+  Generando código
+  2 of 8 functions (25.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Generación de código finalizada
+  Proyecto5.vcxproj -> D:\SGI\Practica\Release\Proyecto5.exe

@@ -1,0 +1,22 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(499,5): warning MSB8004: El directorio Output no termina con una barra diagonal final. Esta instancia de compilación agregará la barra diagonal porque es necesaria para que se pueda evaluar correctamente el directorio Output.
+  David.cpp
+D:\SGI\Practica\Practica2\David.cpp(11,20): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+D:\SGI\Practica\Practica2\David.cpp(25,21): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+D:\SGI\Practica\Practica2\David.cpp(33,34): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\SGI\Practica\Practica2\David.cpp(33,18): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\SGI\Practica\Practica2\David.cpp(34,38): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\SGI\Practica\Practica2\David.cpp(34,20): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\SGI\Practica\Practica2\David.cpp(42,34): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\SGI\Practica\Practica2\David.cpp(42,18): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\SGI\Practica\Practica2\David.cpp(43,38): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\SGI\Practica\Practica2\David.cpp(43,20): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\SGI\Practica\Practica2\David.cpp(47,33): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\SGI\Practica\Practica2\David.cpp(47,17): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\SGI\Practica\Practica2\David.cpp(48,37): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\SGI\Practica\Practica2\David.cpp(48,19): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\SGI\Practica\Practica2\David.cpp(55,1): warning C4326: el tipo de valor devuelto de 'main' debe ser 'int' en lugar de 'void'
+  Generando código
+  Previous IPDB not found, fall back to full compilation.
+  All 6 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Generación de código finalizada
+  Practica2.vcxproj -> D:\SGI\Practica\Practica2\($ProjectDir)\Practica2.exe
